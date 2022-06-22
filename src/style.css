@@ -87,7 +87,7 @@ h2,
 .forms,
 .add-score,
 .text-inputs {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 @media only screen and (max-width: 768px) {
