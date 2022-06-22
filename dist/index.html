@@ -2,10 +2,50 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wbpack Exercise</title>
-<script defer src="main.js"></script></head>
+    <title>Leaderboard API</title>
+<script defer src="main.js"></script><script defer src="main.js"></script></head>
 <body>
-    <h1>Hello webpack!</h1>
+    <header>
+        <h1>Leaderboard</h1>
+    </header>
+    <main class="main" id="main">
+        <section class="grid-section">
+            <div class="leaderboard-lists">
+                <div class="refresh">
+                    <h2 class="recent-score">Recent scores</h2>
+                    <button type="reset" class="refresh-btn">Refresh</button>
+                </div>
+                <div id="main-list" class="main-lists">
+                    <div class="eachScore">
+                        <p class="user user-1">Name: 100</p>
+                    </div>
+                    <div class="eachScore">
+                        <p class="user user-2">Name: 20</p>
+                    </div>
+                    <div class="eachScore">
+                        <p class="user user-3">Name: 50</p>
+                    </div>
+                    <div class="eachScore">
+                        <p class="user user-4">Name: 78</p>
+                    </div>
+                    <div class="eachScore">
+                        <p class="users user-5">Name: 125</p>
+                    </div>
+                </div>
+            </div>
+            <div class="toadd-list">
+                <h2 class="add-score">Add your score</h2>
+                <form action="#" method="get" id="form" class="forms">
+                    <label for="name"></label>
+                    <input type="text" id="name" class="text-inputs inputs" name="name" placeholder="Your name" required>
+                    <label for="score"></label>
+                    <input type="number" id="score" class="text-inputs inputs" name="score" placeholder="Your score" required>
+                    <input type="submit" id="submit-btn" class="submit-inputs inputs" value="Submit">
+                </form>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
