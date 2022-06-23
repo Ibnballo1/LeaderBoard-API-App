@@ -43,6 +43,8 @@ h2,
 .main-lists {
   border-radius: 4px;
   border: 2px solid #000;
+  height: 400px;
+  overflow: hidden scroll;
 }
 
 .white-bg {
