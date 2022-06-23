@@ -98,4 +98,9 @@ h2,
     grid-template-columns: 1fr;
     column-gap: 1.25rem;
   }
+
+  .leaderboard-lists,
+  .toadd-list {
+    width: 35%;
+  }
 }
