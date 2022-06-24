@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+body {
+  background: linear-gradient(to right, #252a48, #d83386);
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -17,6 +21,7 @@ h2,
 .eachScore,
 .inputs {
   font-family: 'Poppins', sans-serif;
+  color: #fff;
 }
 
 #main {
@@ -99,6 +104,16 @@ h2,
 .add-score,
 .text-inputs {
   margin-bottom: 1rem;
+}
+
+.refresh-btn {
+  background-color: #9c296c;
+  color: #fff;
+}
+
+.submit-inputs {
+  background-color: #1a2537;
+  color: #fff;
 }
 
 @media only screen and (max-width: 768px) {
