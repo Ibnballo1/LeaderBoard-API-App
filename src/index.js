@@ -7,9 +7,14 @@ const submitButton = document.getElementById('submit-btn');
 const form = document.getElementById('form');
 
 // Add event listener
-form.addEventListener('submit', (event) => {
-  event.preventDefault();
-  console.log('I worked')
+form.addEventListener('submit', (e) => {
+  if (form.data === true) {
+    e.preventDefault();
+  }
+  else {
+    form.data('submitted', true);
+    console.log('I worked');
+  }
   /*const nameVal = nameInput.value;
   const scoreVal = scoreInput.value;
   const sendGame = async () => {
@@ -26,6 +31,7 @@ form.addEventListener('submit', (event) => {
     const postObj = await obtain.json()
   }
   sendGame()*/
+  e.preventDefault();
 });
 
 getData();
