@@ -1,8 +1,8 @@
-export const refreshBtn = document.getElementById('refresh-btn');
+const refreshBtn = document.getElementById('refresh-btn');
 
 const refresh = () => {
   window.location.reload();
   return false;
 };
 
-export default refresh;
+export { refresh, refreshBtn };

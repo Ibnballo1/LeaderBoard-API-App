@@ -1,4 +1,4 @@
-import displayGames from "./displaygames";
+import displayGames from './displaygames.js';
 
 // Fetch data from API
 const getData = async () => {

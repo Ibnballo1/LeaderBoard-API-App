@@ -1,7 +1,6 @@
 import './style.css';
 import getData from '../modules/addscore.js';
-import refresh from '../modules/refresh.js';
-import { refreshBtn } from '../modules/refresh.js';
+import { refreshBtn, refresh } from '../modules/refresh.js';
 
 const nameInput = document.getElementById('name');
 const scoreInput = document.getElementById('score');
