@@ -1,17 +1,17 @@
-# Webpack Project
-In this project I built a simple yet powerful webpack boilerplate, which will be used as a starting point for other projects.
+# Leaderboard App
+The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external [Leaderboard API service](https://www.notion.so/microverse/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3)
 
 # Built With
 * Major Languages
     - HTML
     - CSS
     - JavaScript
-* Frameworks
+* Webpack
 # Getting Started
 To get a local copy up and running, follow these simple steps:
 ## Usage
-First copy this repo and clone it on your machine using this [link](git@github.com:Ibnballo1/webpack.git).
-Then cd into webpack.
+First copy this repo and clone it on your machine using this [link](git@github.com:Ibnballo1/LeaderBoard-API-App.git).
+Then cd into LeaderBoard-API-App.
 
 # Authors
 :adult: Abdullateef Bello
@@ -20,7 +20,7 @@ Then cd into webpack.
 
 # Contributing
 Contributions, issues, and feature requests are welcome!
-Feel free to check the [issues page](https://github.com/Ibnballo1/webpack/issues)
+Feel free to check the [issues page](https://github.com/Ibnballo1/LeaderBoard-API-App/issues)
 
 # Live Demo
 
@@ -31,4 +31,4 @@ Kindly give a :hearts: if you like this.
 - I expressed my gratitude for everyone.
 
 # License
-This project is [MIT](C:\Users\J T COMPUTER\Microverse-April18\Module2\week2\Day2\webpack\MIT.md).
+This project is [MIT](C:/Users/J T COMPUTER/Microverse-April18/Module2- JavaScript and Networking/Week4 - APIS/Day2- Leaderboard-1/LeaderBoard-API-App/MIT.md).
