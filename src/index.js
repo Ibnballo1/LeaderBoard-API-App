@@ -1,13 +1,31 @@
 import './style.css';
-import displayGames from '../modules/displaygames.js';
-// Fetch data from API
-const getData = async () => {
-  const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Zl4d7IVkemOTTVg2fUdz/scores/';
-  const request = new Request(url);
-  const results = await fetch(request);
-  const gameObj = await results.json();
-  const { result } = gameObj;
-  //console.log(result.length);
-  displayGames(result)
-}
+import getData from '../modules/addscore.js';
+
+const nameInput = document.getElementById('name');
+const scoreInput = document.getElementById('score');
+const submitButton = document.getElementById('submit-btn');
+const form = document.getElementById('form');
+
+// Add event listener
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  console.log('I worked')
+  /*const nameVal = nameInput.value;
+  const scoreVal = scoreInput.value;
+  const sendGame = async () => {
+    const obtain = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/g85gOOK1Kvia0Pysqqy3/scores', {
+      method: 'POST',
+      body: JSON.stringify({
+        user: nameVal,
+        score: scoreVal,
+      }),
+      headers: {
+        'Content-type': 'application/json; charset=UTF-8',
+      }
+    })
+    const postObj = await obtain.json()
+  }
+  sendGame()*/
+});
+
 getData();
