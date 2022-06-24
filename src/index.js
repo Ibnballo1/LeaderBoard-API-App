@@ -1,5 +1,6 @@
 import './style.css';
 import getData from '../modules/addscore.js';
+import refresh from '../modules/refresh.js';
 
 const nameInput = document.getElementById('name');
 const scoreInput = document.getElementById('score');
@@ -8,13 +9,7 @@ const form = document.getElementById('form');
 
 // Add event listener
 form.addEventListener('submit', (e) => {
-  if (form.data === true) {
-    e.preventDefault();
-  }
-  else {
-    form.data('submitted', true);
-    console.log('I worked');
-  }
+  console.log('I worked');
   /*const nameVal = nameInput.value;
   const scoreVal = scoreInput.value;
   const sendGame = async () => {
