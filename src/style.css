@@ -67,6 +67,15 @@ h2,
   flex-direction: column;
 }
 
+.result-post {
+  margin-bottom: 16px;
+  padding: 4px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: greenyellow;
+  background-color: #000;
+}
+
 .inputs,
 .refresh-btn {
   padding: 0.375rem;
