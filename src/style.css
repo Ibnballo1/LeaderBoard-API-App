@@ -91,6 +91,8 @@ h2,
 .submit-inputs {
   width: 20%;
   align-self: flex-end;
+  background-color: #1a2537;
+  color: #fff;
 }
 
 .refresh-btn,
@@ -108,11 +110,6 @@ h2,
 
 .refresh-btn {
   background-color: #9c296c;
-  color: #fff;
-}
-
-.submit-inputs {
-  background-color: #1a2537;
   color: #fff;
 }
 
