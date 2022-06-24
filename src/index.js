@@ -12,7 +12,7 @@ form.addEventListener('submit', (e) => {
   const nameVal = nameInput.value;
   const scoreVal = scoreInput.value;
   const sendGame = async () => {
-    const obtain = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/g85gOOK1Kvia0Pysqqy3/scores', {
+    const obtain = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/otdqhkYr76V3LgOiuYUa/scores/', {
       method: 'POST',
       body: JSON.stringify({
         user: nameVal,
