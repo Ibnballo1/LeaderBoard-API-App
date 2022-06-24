@@ -1,6 +1,7 @@
 import './style.css';
 import getData from '../modules/addscore.js';
 import refresh from '../modules/refresh.js';
+import { refreshBtn } from '../modules/refresh.js';
 
 const nameInput = document.getElementById('name');
 const scoreInput = document.getElementById('score');
@@ -9,7 +10,6 @@ const postResult = document.getElementById('res');
 
 // Add event listener
 form.addEventListener('submit', (e) => {
-  //console.log('I worked');
   const nameVal = nameInput.value;
   const scoreVal = scoreInput.value;
   const sendGame = async () => {
@@ -21,15 +21,14 @@ form.addEventListener('submit', (e) => {
       }),
       headers: {
         'Content-type': 'application/json; charset=UTF-8',
-      }
-    })
+      },
+    });
     const postObj = await obtain.json();
-    //console.log(postObj)
-    const { result } = postObj;
-    postResult.innerHTML = postObj['result'];
-  }
+    postResult.innerHTML = postObj.result;
+  };
   sendGame();
   e.preventDefault();
 });
 
 getData();
+refreshBtn.addEventListener('click', refresh);

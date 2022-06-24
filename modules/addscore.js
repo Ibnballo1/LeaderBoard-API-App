@@ -1,4 +1,4 @@
-import displayGames from '../modules/displaygames.js';
+import displayGames from "./displaygames";
 
 // Fetch data from API
 const getData = async () => {
@@ -7,8 +7,7 @@ const getData = async () => {
   const results = await fetch(request);
   const gameObj = await results.json();
   const { result } = gameObj;
-  //console.log(result.length);
-  displayGames(result)
-}
+  displayGames(result);
+};
 
 export default getData;
