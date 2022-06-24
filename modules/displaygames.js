@@ -1,5 +1,5 @@
 // Displaying the games on the page
-export const mainList = document.getElementById('main-list');
+const mainList = document.getElementById('main-list');
 
 const displayGames = (games) => {
   games.forEach((game, index) => {
