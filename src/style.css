@@ -81,6 +81,10 @@ h2,
   background-color: #000;
 }
 
+.text-inputs {
+  color: #000;
+}
+
 .inputs,
 .refresh-btn {
   padding: 0.375rem;
