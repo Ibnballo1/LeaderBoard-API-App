@@ -23,6 +23,7 @@ Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](https://github.com/Ibnballo1/LeaderBoard-API-App/issues)
 
 # Live Demo
+[LeaderBoard API](https://ubiquitous-cendol-e9f412.netlify.app/)
 
 # Show your support
 Kindly give a :hearts: if you like this.
